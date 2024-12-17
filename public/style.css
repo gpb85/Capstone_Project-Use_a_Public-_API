@@ -19,14 +19,14 @@ body {
   text-align: center;
 }
 
-.search {
+form {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.search input {
+form input {
   border: 0;
   outline: 0;
   background: #ebfffc;
@@ -39,7 +39,7 @@ body {
   font-size: 18px;
 }
 
-.search button {
+form button {
   border: 0;
   outline: 0;
   background: #ebfffc;
@@ -49,9 +49,8 @@ body {
   cursor: pointer;
 }
 
-.search button img {
+form button img {
   width: 30px;
-  color: black;
 }
 
 .weather-icon {
